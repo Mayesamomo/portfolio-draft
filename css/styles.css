@@ -66,8 +66,25 @@ White: #FFFFFF
 #header{
   display: flex;
   justify-content: space-between;
+  padding: 15px 10px;
+  background-color: #3C403D;
+  color: #ffffff;
 }
 
-nav .nav__bar{
-  flex-basis: 1;
+.nav__bar ul{
+display:flex;
+justify-content: space-evenly;
+}
+.nav_list li{
+  list-style-type: none;
+ padding: 0 15px;
+}
+.nav_list li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav_list li a:hover{
+  background-color: #DADED4;
+  color: #000000;
 }
