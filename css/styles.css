@@ -14,7 +14,9 @@ White: #FFFFFF
 /*
   1. Use a more-intuitive box-sizing model.
 */
-*, *::before, *::after {
+*, 
+*::before, 
+*::after {
     box-sizing: border-box;
   }
   /*
@@ -61,31 +63,11 @@ White: #FFFFFF
 
   /**header**/
 
-.tools_bar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #A3BCB6;
-    height: 15%;
-    width: 100%;
-    align-items: center;
+#header{
+  display: flex;
+  justify-content: space-between;
 }
 
-.brand{
-    padding: 15px;
-}
-
-.dark_mode button{
-   padding: 25px;
-   margin-left: 10px;
-   /* width: 100px;
-   height: 2em; */
-}
-hr{
-    border: 2px solid #000;
-}
-
-.nav_bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav .nav__bar{
+  flex-basis: 1;
 }
